@@ -7,6 +7,8 @@ So the gist of the application is that it uses the following
 - Reactfire for simplying connections with Firebase
 - Firebase Hosting for deploying the web app
 
+You can view the demo by clicking [here](https://poll-app-ab304.web.app/)
+
 ## Plans
 
 For the time being, the web app implements authentication and the capability to add/vote on polls. In the future, I am planning to extend the ability to be able to view who has voted and for what, and make the voting history as transparent as possible. The groundwork has been partly laid for that and I will continue to work on it after a little while.
