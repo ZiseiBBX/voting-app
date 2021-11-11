@@ -1,6 +1,7 @@
 # Voting App
 
 So the gist of the application is that it uses the following
+- ChakraUI for well... UI
 - Firebase Authentication
 - Database CRUD Operations with Firestore
 - Zustand for State Management
