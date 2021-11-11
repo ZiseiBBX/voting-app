@@ -40,8 +40,11 @@ function Navbar() {
   return (
     <Flex
       as="nav"
+      position="fixed"
+      zIndex="100"
       align="center"
       justify="space-between"
+      backdropFilter="saturate(100%) blur(5px)"
       wrap="wrap"
       w="100%"
       py="4"

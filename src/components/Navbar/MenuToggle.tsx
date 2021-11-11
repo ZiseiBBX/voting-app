@@ -11,7 +11,7 @@ function MenuToggle({ toggle, isOpen }: MenuToggleProps) {
 
   return (
     <Box display={{ base: "block", md: "none" }} onClick={toggle}>
-      {isOpen ? <CgClose color={iconColor} /> : <BiMenu color={iconColor} />}
+      {isOpen ? <CgClose color={iconColor} size="28" /> : <BiMenu color={iconColor} size="28" />}
     </Box>
   )
 }
