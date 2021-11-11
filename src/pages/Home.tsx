@@ -77,9 +77,13 @@ function Home() {
 						}
 
 						let voted = false;
+            let optionVoted = ""
 
 						for (let j = 0; j < datum.voteInfo.length; j++) {
-							if (datum.voteInfo[j].email === user.email) voted = true;
+							if (datum.voteInfo[j].email === user.email) {
+                voted = true
+                optionVoted = datum.voteInfo[j].option
+              }
 						}
 
 						return (
@@ -101,7 +105,7 @@ function Home() {
 											return (
 												<Box px="4" py="1" my="2" key={option.title}>
 													<Flex w="full" alignItems="center">
-														<Text width="10" flex="1">
+														<Text width="10" flex="1" fontWeight={optionVoted === option.title ? "bold" : "normal"}>
 															{option.title}
 														</Text>
 														<Progress flex="4" mx="2" value={canVote ? 0 : progressValue} colorScheme="green" />
