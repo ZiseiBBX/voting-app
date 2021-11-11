@@ -49,6 +49,7 @@ function Navbar() {
       w="100%"
       py="4"
       px={["4", "6", "8" ,"8"]}
+      boxShadow="md"
     >
       <NavbarLogo />
       <MenuToggle isOpen={isOpen} toggle={toggle} />

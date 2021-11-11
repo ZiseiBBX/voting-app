@@ -8,7 +8,7 @@ function PageContainer({ children, justifyContent }: any) {
 			direction="column"
 			justifyContent={justifyContent}
 			alignItems="center"
-			mt={["10", "10", "20", "20"]}
+			mt={["20", "20", "20", "20"]}
 			px={["5", "10", "20", "20"]}
 		>
 			{children}
